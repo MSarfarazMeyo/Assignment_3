@@ -1,17 +1,32 @@
-import MoviesTable from "./MoviesTable";
+
+import MoviesTable from './MoviesTable';
+
+
 
 const Movies = () => {
-  return (
-    <>
-      <MoviesTable />
-    </>
-  );
-};
+
+    return (
+        <>
+            <MoviesTable />
+        </>
+    )
+}
 
 export default Movies;
 
-{
-  /*
+
+
+
+
+
+
+
+
+
+
+
+
+{/*
 const handlePagination = (movie) => {
         setPagination(movie)
     }
@@ -26,5 +41,4 @@ const handlePagination = (movie) => {
 
                         </ul>
                     </nav>
-                </div> */
-}
+                </div> */}
